@@ -59,7 +59,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankPlayerController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATankPlayerController)
 
 
-#define BattleTank_Source_BattleTank_TankPlayerController_h_17_PRIVATE_PROPERTY_OFFSET
+#define BattleTank_Source_BattleTank_TankPlayerController_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_CrossHairXLocation() { return STRUCT_OFFSET(ATankPlayerController, m_CrossHairXLocation); } \
+	FORCEINLINE static uint32 __PPO__m_CrossHairYLocation() { return STRUCT_OFFSET(ATankPlayerController, m_CrossHairYLocation); } \
+	FORCEINLINE static uint32 __PPO__m_LineTraceRange() { return STRUCT_OFFSET(ATankPlayerController, m_LineTraceRange); }
+
+
 #define BattleTank_Source_BattleTank_TankPlayerController_h_14_PROLOG
 #define BattleTank_Source_BattleTank_TankPlayerController_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

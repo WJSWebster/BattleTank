@@ -1,16 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
-  Parsing headers for BattleTankEditor
-    Running UnrealHeaderTool "C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\BattleTank.uproject" "C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BattleTankEditor in 12.6451874 seconds
-  Building 6 actions with 4 processes...
-    [1/6] TankPlayerController.gen.cpp
-    [2/6] TankPlayerController.cpp
-    [3/6] TankAIController.cpp
-    [4/6] TankAIController.gen.cpp
-    [5/6] UE4Editor-BattleTank-6873.lib
-       Creating library C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6873.lib and object C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6873.exp
-    [6/6] UE4Editor-BattleTank-6873.dll
-       Creating library C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6873.suppressed.lib and object C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6873.suppressed.exp
+  Building 3 actions with 4 processes...
+    [1/3] TankAIController.cpp
+    [2/3] UE4Editor-BattleTank-6305.lib
+       Creating library C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6305.lib and object C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6305.exp
+    [3/3] UE4Editor-BattleTank-6305.dll
+       Creating library C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6305.suppressed.lib and object C:\Users\i5\Documents\Unreal Projects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6305.suppressed.exp
   Deploying BattleTankEditor Win64 Development...
-  Total build time: 19.23 seconds (Parallel executor: 2.82 seconds)
+  Total build time: 5.24 seconds (Parallel executor: 2.27 seconds)
